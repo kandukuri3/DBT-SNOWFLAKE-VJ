@@ -1,8 +1,8 @@
 {{
     config(
-        materialized='view',
-        alias='name'
+        materialized='view'
+
     )
 }}
 
-select 'vijay' name,current_database(),current_schema(),current_account()
+select 'vijay' name,current_database() database,current_schema() schema,current_account() account
