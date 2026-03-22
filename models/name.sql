@@ -5,4 +5,4 @@
     )
 }}
 
-select 'vijay' name,current_database(),current_schema()
+select 'vijay' name,current_database(),current_schema(),current_account()
